@@ -15,3 +15,10 @@ A dynamic, multiplayer Bingo game built in Python. Unlike traditional Bingo, pla
 2. Clone this repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/python_game.git](https://github.com/AKRoutGitHub/DraftBingo-CLI.git)
+
+## ✨ New Updates (V1.1)
+I have recently added the following enhancements to improve gameplay:
+
+- **Robust Error Handling:** Added input validation loops to prevent the game from crashing when users enter non-numeric values.
+- **Dynamic Leaderboard:** The CLI now renders a real-time score tracker after every draw, so players can see how close their opponents are to winning.
+- **Customizable Ticket Sizes:** Players can now decide how many numbers they want to manage (Minimum 2).
