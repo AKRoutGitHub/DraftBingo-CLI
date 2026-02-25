@@ -74,6 +74,13 @@ def start_ultimate_bingo():
                 info["matches"] += 1
                 match_found = True
                 #     print(f"  🎯 MATCH! {name} hit {drawn_num} (Score: {info['matches']}/2)")
+                # ... inside the drawing loop after matches are checked ...
+        
+                print("-" * 20)
+                print("  CURRENT STANDINGS  ")
+                for p_name, p_info in players_data.items():
+                    print(f"  {p_name}: {p_info['matches']}/2")
+                print("-" * 20)
                 
                 # Win Condition: First to 2 matches
                 if info["matches"] == 2:
